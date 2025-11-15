@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class scientificcalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // input data to system
-        // Entry of first no
+        // Entry of first no value
         System.out.println("First Number Input: ");
         float first = input.nextFloat(); // input in floating format for wide range cover
         // selecting math formula for easy calculating
@@ -27,7 +27,7 @@ public class scientificcalculator {
             System.out.println("Second Number Input: ");
             second = input.nextFloat();
         }
-        // calculation
+        // math calculation
         switch (choice) {
             case 1 -> result = first + second;
             case 2 -> result = first - second;
